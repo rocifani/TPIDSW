@@ -1,52 +1,15 @@
-header {
-    background-color:whitesmoke;
-    color: #fff;
-    padding: 10px;
-  }
-  
-  nav {
-    display: flex;
-    
-    align-items: center;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center; /* Para alinear verticalmente la imagen y el texto */
-  }
-  
-  .logo img {
-    width: 80px; /* Ancho deseado de la imagen */
-    height: auto; /* Altura se ajustará automáticamente */
-    margin-right: 10px;
-    padding-left: 10px; /* Espacio entre la imagen y el texto */
-  }
-  
-  .logo span {
-    font-size: 24px; /* Tamaño de fuente deseado */
-    font-weight: bold;
-    font-family: 'Lunasima',sans-serif;
-    color: #046381;
-  }
-  
-  
-  
-  ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  li {
-    margin-left: 20px;
-  }
-  
-  a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-  }
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
 
-  .menu {
-    justify-content: center;
-    background-color: blue;
-  }
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
